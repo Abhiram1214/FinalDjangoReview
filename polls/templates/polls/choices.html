@@ -1,0 +1,7 @@
+{% if choices %}
+<h1> Question is  </h1>
+	{% for choices in choices %}
+	{{choices.choice_text}}
+	{% endfor %}
+{% endif %}
+
